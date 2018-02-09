@@ -20,7 +20,7 @@ inoremap <C-L> <Esc>a<C-N>
 let g:mucomplete#chains = {'default': []}
 let g:mucomplete#can_complete = {'default': {}}
 let g:mucomplete#user_mappings = {}
-let g:mucomplete#chains.default = ['path', 'omni', 'neosnippet', 'keyn', 'dict', 'uspl']
+let g:mucomplete#chains.default = ['keyn', 'path', 'neosnippet', 'dict', 'uspl', 'omni']
 
 " Unite integration
 autocmd FileType unite MUcompleteAutoOff
