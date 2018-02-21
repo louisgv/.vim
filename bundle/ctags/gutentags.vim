@@ -4,3 +4,5 @@ let s:notags = expand('~/.notags')
 if !filereadable(s:notags)
   call writefile([], s:notags)
 endif
+
+set statusline+=%{gutentags#statusline()}
