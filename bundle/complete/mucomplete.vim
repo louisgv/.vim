@@ -5,13 +5,10 @@ let g:mucomplete#no_mappings = 1 " avoid <C-H> conflict with lexima
 
 " cycle through completion menu
 imap <tab> <Plug>(MUcompleteFwd)
-imap <s-tab> <Plug>(MUcompleteBwd)
 
 " cycle through completion chains when the menu is already visible
-inoremap <silent> <plug>(MUcompleteFwdKey) <right>
-imap <right> <plug>(MUcompleteCycFwd)
-inoremap <silent> <plug>(MUcompleteBwdKey) <left>
-imap <left> <plug>(MUcompleteCycBwd)
+inoremap <silent> <plug>(MUcompleteFwdKey) <s-tab>
+imap <s-tab> <plug>(MUcompleteCycFwd)
 
 " manually force-trigger completion when automatic completion fails
 inoremap <C-L> <Esc>a<C-N>

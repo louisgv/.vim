@@ -896,9 +896,7 @@ In insert mode, when the completion menu automatically appears:
 * `<C-J>` expands snippet or cycles forward through placeholders.
 * `<C-L>` forcefully refreshes the entire completion menu.
 * `<Tab>` cycles forward through completion menu items, just like `<C-N>`.
-* `<S-Tab>` cycles backward through completion menu items, just like `<C-P>`.
-* `<Right>` cycles forward through chain of completion sources.
-* `<Left>` cycles backward through chain of completion sources.
+* `<S-Tab>` cycles forward through chain of completion menu sources.
 
 See [MUcomplete.vim](https://github.com/lifepillar/vim-mucomplete)
 and [NeoSnippet.vim](https://github.com/Shougo/neosnippet.vim).
