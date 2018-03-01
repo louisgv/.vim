@@ -321,10 +321,8 @@ Shortcut              | Description
 ``7gt``               | expose tab 7
 ``8gt``               | expose tab 8
 ``9gt``               | expose tab 9
-``<BS>``              | (fold-cycle) Cycle close nested folds
 ``<C-Q>``             | exit/quit vim
 ``<C-S>``             | strip trailing whitespace in buffer and write buffer to file
-``<CR>``              | (fold-cycle) Cycle open nested folds
 ``<Leader><C-Q>``     | exit/quit vim forcefully
 ``<Leader><Leader>k`` | (dasht) search ALL the docsets at command prompt
 ``<Leader><Leader>K`` | (dasht) search ALL the docsets for cursor word or selected text
